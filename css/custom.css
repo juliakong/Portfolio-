@@ -1,0 +1,67 @@
+#name { padding-left: 5%;}
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: white;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+
+/* Adds the transparent background */
+/*background-color: rgba(1, 1, 1, 0.8);
+*/color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: red;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
+
+#intro { padding: 5%; 
+}
+#introtext { padding-top: 10%}
+#projects {text-align: center ; 
+	padding-top: 10px; padding-bottom: 2%}
+#projecttext {text-align: right; padding-top:  0px; padding-left: 30%;}
+#projectimage {display: block;
+/*    margin-left: 0%;
+*/    margin-right: -30%;
+	padding-top: none; padding-bottom: 2%;}
+
+#bespokecontainer {padding-top: 15px; padding-bottom: 50px;}
+#bespokeheader { text-align: right; padding-left: 25%;}
+#bespoketext {text-align: left; padding-right: 20%;}
+#carousel-container {
+    margin: 25px auto 0px auto;
+    max-width: 500px; /*max-height: 800px; */ min-height: 500px;
+}
+
+
+#hatgheader {text-align: center; padding-top: 2.5%;}
+#hatgdesc {text-align: center; padding-left: 20%; padding-right:20%; padding-top: 10px; padding-bottom: 15px;}
+#process {text-align: center; padding-top: 2.5%; padding-bottom: 2.5%}
+#hatg-container-right {text-align: right;}
+#hatg-container-left {padding-right: 30%;}
+#hatgimg {display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#archdesc {padding-top: 1%; text-align: center;}
+#archimg {display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: none; padding-bottom: none;}
+
+#dfapage {padding-left: 1%; padding-right: 1%;}
+
+#sysdesc {text-align: center; padding-left: 25%; padding-right:25%; padding-top: 1.5%; padding-bottom: 3%;}
+#sys-container-right {text-align: right; padding-bottom: 5%;}
+#sys-container-left {padding-right: 25%; padding-bottom: 5%;}
