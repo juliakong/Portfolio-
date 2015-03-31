@@ -53,6 +53,7 @@ color: grey;
 #hatgimg {display: block;
     margin-left: auto;
     margin-right: auto }
+   #hatgcaption {text-align: center; padding-top: 1%;}
 
 #archdesc {padding-top: 1%; text-align: center;}
 #archimg {display: block;
