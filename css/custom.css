@@ -41,6 +41,8 @@ font-weight: 300;
 color: #3b3b3b;
 } 
 
+#footer {text-align: center; font-family: "lena";}
+
 #intro { padding: 5%; 
 	padding-left: 15%; 
 	padding-right: 15%;
