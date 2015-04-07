@@ -57,7 +57,9 @@ color: #3b3b3b;
 	font-weight: 300;
 	/*text-transform: uppercase;*/
 	padding-top: 1%; }
-#projectheader {color: #db3700;}
+#projectheader {color: #db3700; 
+	font-family: "Raleway";
+	font-weight: 400;}
 #projecttag {color: #348781;
 	text-transform: uppercase;
 	font-size: 13px}
@@ -77,6 +79,10 @@ color: #3b3b3b;
 	margin-bottom: 2.5%; margin-top: 3.5%;
 	border-style: solid;
 	border-width: 2px;
+	border-color: #d3d3d3;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;
 	}
 #bespokedesc1 {text-align: center; padding-left: 10%; padding-right:10%; padding-top: 10px; padding-bottom: 10px;
 	font-family: "Raleway";
@@ -111,8 +117,10 @@ color: #3b3b3b;
 	margin-bottom: 2.5%; margin-top: 2.5%;
 	border-style: solid;
 	border-width: 2px;
-/*	color: #348781 ;
-	border-color: #348781;*/}
+	border-color: #d3d3d3;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;}
 
 #hatgheader {text-align: center; padding-top: 1.5%;font-family: "Raleway";
 	font-weight: 300;}
@@ -166,7 +174,11 @@ color: #3b3b3b;
 	margin-right: 36%;
 	margin-bottom: 2.5%; margin-top: 3.5%;
 	border-style: solid;
-	border-width: 2px;}
+	border-width: 2px;
+	border-color: #d3d3d3;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;}
 #archdesc {padding-top: 1%; text-align: center;}
 #archimg {display: block;
     margin-left: auto;
@@ -180,7 +192,11 @@ color: #3b3b3b;
 	margin-right: 36%;
 	margin-bottom: 2.5%; margin-top: 3.5%;
 	border-style: solid;
-	border-width: 2px;}
+	border-width: 2px;
+	border-color: #d3d3d3;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;}
 #dfapage {padding-left: 3%; padding-right: 3%;}
 #dfatext {font-family:"lora"; font-size: 15px;}
 
@@ -191,6 +207,10 @@ color: #3b3b3b;
 	margin-bottom: 3.5%; margin-top: 3.5%;
 	border-style: solid;
 	border-width: 2px;
+	border-color: #d3d3d3;
+	border-left-color: white;
+	border-right-color:white;
+	border-top-color:white;
 	}
 #sysdesc {text-align: center; padding-left: 35%; padding-right:35%; padding-top: 1.5%; padding-bottom: 3%;
 	font-family: "Open Sans";
