@@ -1,4 +1,13 @@
-#name { padding-left: 5%;}
+
+#name { 
+	padding-left: 1%; 
+	/*padding-right: 15%;*/
+	font-family: "Raleway";
+	font-size: 25px;
+	font-weight: 100;
+	padding-top: s1%;
+	text-transform: uppercase;}
+
 #navigation {
 position: fixed;
 top: 0;
@@ -6,63 +15,202 @@ width: 100%;
 color: white;
 height: 35px;
 text-align: center;
-padding-top: 15px;
+padding-top: 2%;
 
 /* Adds the transparent background */
 /*background-color: rgba(1, 1, 1, 0.8);
-*/color: rgba(1, 1, 1, 0.8);
+*/color: rgba(1, 1, 1, .5);
 }
 
+
+
 #navigation a {
-font-size: 14px;
+font-size: 17px;
 padding-left: 15px;
 padding-right: 15px;
-color: red;
+color: #db3700   ;
 text-decoration: none;
+font-family: "Raleway";
+text-transform: uppercase;
+font-weight: 300;
+
+
 }
 
 #navigation a:hover {
-color: grey;
+color: #3b3b3b;
 } 
 
 #intro { padding: 5%; 
+	padding-left: 15%; 
+	padding-right: 15%;
 }
-#introtext { padding-top: 10%}
+#introheader {font-family: "Raleway";
+	font-weight: 300;}
+#introtext { padding-top: 7%;
+		font-family: "Open Sans";
+		font-weight: 400;
+		font-size: 15px}
+
 #projects {text-align: center ; 
-	padding-top: 10px; padding-bottom: 2%}
-#projecttext {text-align: right; padding-top:  0px; padding-left: 30%;}
+	font-family: "Raleway";
+	font-weight: 300;
+	/*text-transform: uppercase;*/
+	padding-top: 1%; }
+#projectheader {color: #db3700;}
+#projecttag {color: #348781;
+	text-transform: uppercase;
+	font-size: 13px}
+#projecttext {text-align: right; padding-top:  0px; padding-left: 30%; font-family: "Open Sans";
+		color:#3b3b3b;}
+
 #projectimage {display: block;
 /*    margin-left: 0%;
 */    margin-right: -30%;
-	padding-top: none; padding-bottom: 2%;}
+	padding-top: none; padding-bottom: 2%;
+	 z-index: -1}
 
-#bespokecontainer {padding-top: 15px; padding-bottom: 50px;}
+
+#bespokebox {
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-bottom: 2.5%; margin-top: 3.5%;
+	border-style: solid;
+	border-width: 2px;
+	}
+#bespokedesc1 {text-align: center; padding-left: 10%; padding-right:10%; padding-top: 10px; padding-bottom: 10px;
+	font-family: "Raleway";
+	font-size: 15px;
+	font-weight: 400;
+	}
+#bespoketitle {text-align: center; padding-top: 1.5%;font-family: "Raleway";
+	font-weight: 200;}
+
+#bespokecontainer {padding-top: 15px; padding-bottom: 50px;  z-index: -1;}
 #bespokeheader { text-align: right; padding-left: 25%;}
-#bespoketext {text-align: left; padding-right: 20%;}
+#bespokeheader1 {font-family: "Raleway";
+	font-weight: 300;
+	vertical-align: text-top;
+	color: #db3700;}
+#bespokedesc {font-family: "Open Sans";
+	font-weight: 300;
+	color: #348781;;}
+#bespoketext {text-align: left; 
+	padding-right: 20%;
+	font-family: "lena";
+}
 #carousel-container {
     margin: 25px auto 0px auto;
     max-width: 500px; /*max-height: 800px; */ min-height: 500px;
+     z-index: -1
 }
 
+#hatgbox {
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-bottom: 2.5%; margin-top: 2.5%;
+	border-style: solid;
+	border-width: 2px;
+/*	color: #348781 ;
+	border-color: #348781;*/}
 
-#hatgheader {text-align: center; padding-top: 2.5%;}
-#hatgdesc {text-align: center; padding-left: 20%; padding-right:20%; padding-top: 10px; padding-bottom: 15px;}
-#process {text-align: center; padding-top: 2.5%; padding-bottom: 2.5%}
+#hatgheader {text-align: center; padding-top: 1.5%;font-family: "Raleway";
+	font-weight: 300;}
+#hatgdesc {text-align: center; padding-left: 10%; padding-right:10%; padding-top: 10px; padding-bottom: 15px;
+	font-family: "Raleway";
+	font-size: 15px;
+	font-weight: 400;
+	}
+#process {text-align: center; padding-top: 1.5%; padding-bottom: 1.5%;
+	font-family: "Raleway";
+	margin-left: 44%;
+	margin-right: 44%;
+	margin-bottom: 2.5%; margin-top: 1.5%;
+	font-size: 20px;
+	font-weight: 200;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 2px;
+	color: #348781 ;
+	border-color: #348781;}
+
+#processhatg {text-align: center; padding-top: 2.5%; padding-bottom: 1.5%;
+	font-family: "lora";
+	font-size: 15px;
+	font-weight: 300;
+	}
+#hatgheader1 {font-family: "Open Sans";
+	font-size: 20px;color: #db3700 ;
+	font-weight: 200;}
 #hatg-container-right {text-align: right;}
 #hatg-container-left {padding-right: 30%;}
 #hatgimg {display: block;
     margin-left: auto;
-    margin-right: auto }
-#hatgcaption {text-align: center; padding-top: 1%;}
+    margin-right: auto;
+	z-index: -1;}
+#hatgcaption {text-align: center; 
+	padding-top: 1%; 
+	padding-bottom: 1%;
+	font-family: "Open Sans";
+	font-size: 15px;}
+#hatgtext {font-family: "lora";
+	font-size: 15px;}
+#hatgtitle { font-family: "Raleway";
+	color:#db3700;
+	font-size: 15px;
+	text-transform: uppercase;}
 
+
+#archbox {
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-bottom: 2.5%; margin-top: 3.5%;
+	border-style: solid;
+	border-width: 2px;}
 #archdesc {padding-top: 1%; text-align: center;}
 #archimg {display: block;
     margin-left: auto;
     margin-right: auto;
-	padding-top: none; padding-bottom: none;}
+	padding-top: none; padding-bottom: none;
+	 z-index: -1;}
 
-#dfapage {padding-left: 1%; padding-right: 1%;}
 
-#sysdesc {text-align: center; padding-left: 25%; padding-right:25%; padding-top: 1.5%; padding-bottom: 3%;}
+#dfabox {
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-bottom: 2.5%; margin-top: 3.5%;
+	border-style: solid;
+	border-width: 2px;}
+#dfapage {padding-left: 3%; padding-right: 3%;}
+#dfatext {font-family:"lora"; font-size: 15px;}
+
+
+#sysbox {
+	margin-left: 36%;
+	margin-right: 36%;
+	margin-bottom: 3.5%; margin-top: 3.5%;
+	border-style: solid;
+	border-width: 2px;
+	}
+#sysdesc {text-align: center; padding-left: 35%; padding-right:35%; padding-top: 1.5%; padding-bottom: 3%;
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;}
+#systitle {font-family: "Raleway";
+	color:#db3700;
+	font-size: 15px;
+	text-transform: uppercase;}
+#systext {font-family: "lora";
+	font-size: 15px;}
 #sys-container-right {text-align: right; padding-bottom: 5%;}
 #sys-container-left {padding-right: 25%; padding-bottom: 5%;}
+
+
+#contactheader {text-align: center; 
+	padding-top: 1.5%;
+	font-family: "Raleway";
+	font-weight: 300;}
+#contacttitle { font-family: "Open Sans";
+	font-weight: 400;
+	font-size:15px;}
+
